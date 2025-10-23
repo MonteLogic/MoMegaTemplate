@@ -1,0 +1,55 @@
+{
+  "name": "new-momega",
+  "version": "1.0.0",
+  "description": "Interactive CLI to start a full-stack, opinionated Next.js app with Clerk auth and optional database",
+  "main": "dist/index.js",
+  "bin": {
+    "new-momega": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "nextjs",
+    "clerk",
+    "typescript",
+    "tailwind",
+    "drizzle",
+    "pwa",
+    "template",
+    "cli"
+  ],
+  "author": "MonteLogic",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "fs-extra": "^11.2.0",
+    "execa": "^8.0.1",
+    "validate-npm-package-name": "^5.0.0",
+    "gray-matter": "^4.0.0",
+    "remark": "^15.0.0",
+    "remark-html": "^15.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ]
+}

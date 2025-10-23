@@ -1,0 +1,1 @@
+{"version":3,"file":"nextConfig.js","sourceRoot":"","sources":["../../src/templates/nextConfig.ts"],"names":[],"mappings":";;AAEA,gDA6BC;AA7BD,SAAgB,kBAAkB,CAAC,MAAiB;IAClD,IAAI,aAAa,GAAG;;;;;;;;CAQrB,CAAC;IAEA,IAAI,MAAM,CAAC,QAAQ,CAAC,GAAG,EAAE,CAAC;QACxB,aAAa,IAAI;;;;;;;;;CASpB,CAAC;IACA,CAAC;SAAM,CAAC;QACN,aAAa,IAAI;;CAEpB,CAAC;IACA,CAAC;IAED,OAAO,aAAa,CAAC;AACvB,CAAC"}
