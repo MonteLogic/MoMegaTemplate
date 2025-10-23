@@ -40,3 +40,6 @@ yarn-error.log*
 test-results/.last-run.json
 test-results/*.zip
 test-results/playwright/.auth
+
+# CLI tool directory
+new-momega-app/
